@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+
+{% block title %}Score{% endblock %}
+
+{% block content %}
+<h1 id="dyk1">The correct answers are:</h1>
+<ul>
+	<div class="list">
+		<li>Question 1:@Mountain805 </li>
+		<li>Question 2:Using a mix of upper and lowercase letters, numbers, and symbols</li>
+		<li>Question 3:False</li>
+	</div>
+</ul>
+<h1>Your score is: {{ score }}</h1>
+
+<a href="/startOver">Start over</a>
+
+{% endblock %}

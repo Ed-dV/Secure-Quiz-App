@@ -7,6 +7,19 @@ h1 {
 	text-align: center
 }
 
+#dyk1{
+	font-size: 60px;
+}
+
+#brief1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.list{
+	font-size: 40px;
+}
+
 a:link, a:visited {
   background-color: white;
   color: black;

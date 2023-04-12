@@ -1,16 +1,16 @@
 {% extends "layout.html" %}
 
-{% block title %}Page 2: Ask for your favorite color{% endblock %}
+{% block title %}password quiz{% endblock %}
 
 {% block content %}
-  <h1>Page 2: Ask for favorite color</h1>
-
- <form action={{ url_for("renderPage3") }} method="POST">
-  Favorite Color:<br>
-  <input type="text" name="favoriteColor">
-  <input type="submit" value="Submit">
- </form> 
-
+<h1>True or False: It's safe to use the same password for multiple accounts</h1>
+<form action={{ url_for("renderPage3") }} method="POST">
+	<input type="radio" id="opt1" name="anw" value="p3_1"><label for="p3_1">True</label><br>
+	<input type="radio" id="opt2" name="anw" value="p3_2"><label for="p3_2">False</label><br>
+	
+	<br><br>
+	<input type="submit" value="Submit">
+</form> 
 
 
 {% endblock %}
