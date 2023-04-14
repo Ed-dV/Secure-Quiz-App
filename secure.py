@@ -23,7 +23,7 @@ def count2(current_count):
     
     
 def count3(current_count):
-    if session['password_choice'] == "p3_1":
+    if session['password_choice'] == "p3_2":
         current_count += 1
     return current_count
     
